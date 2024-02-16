@@ -159,6 +159,7 @@
     height: 100vh; 
        /* background-color: aqua; */
        background-image: url(https://bootstrapmade.com/demo/templates/iPortfolio/assets/img/hero-bg.jpg);
+       background-attachment: fixed;
        background-size: cover;
        background-position: top center;
        display: flex;
@@ -652,9 +653,9 @@
       .subawaiskhan i{
         margin-left: -50px;
       }
-      .subawaiskhan a{
+      /* .subawaiskhan a{
         margin-left: -20px;
-      }
+      } */
     }
     @media (max-width:1386px){
       .columnbox8{
@@ -733,7 +734,12 @@
       @media (max-width:920px){
         .imgBox7{
             flex-basis: 48%;
-            
+          }
+          .subawaiskhan a{
+            margin-left: 6px;
+          }
+          .subawaiskhan i{
+            margin-left: -30px;
           }
       }
       @media (max-width:718px){
@@ -811,9 +817,12 @@
     }
     .subawaiskhan a{
         font-size: 13px;
+        /* padding-right: 20px; */
+        margin-left: -7px;
     }
     .subawaiskhan i{
         font-size: 18px;
+        margin-left: -29px;
     }
     .awaiskhan h1{
     font-size: 23px;
@@ -835,9 +844,12 @@
     }
     .subawaiskhan a{
         font-size: 11px;
+        margin-left: -10px;
     }
     .subawaiskhan i{
         font-size: 16px;
+        /* padding-right: 12%; */
+        margin-left: -40px;
     }
     .awaiskhan h1{
     font-size: 21px;
@@ -864,6 +876,5 @@
       margin-left: 2px;
       /* background-color: yellow; */
     }
-
   }
 }
