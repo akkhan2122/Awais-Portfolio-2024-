@@ -25,9 +25,27 @@
     height: auto;
     position: absolute;
 }
-
-
-
+.content888{
+  display: inline-block;
+  color: white;
+  font-size: 30px;
+  padding-left: 10%;
+}
+.typed-out{
+  overflow: hidden;
+  /* border-right: .15em solid orange; */
+  /* color: aqua; */
+  font-size: 20px;
+  white-space: nowrap;
+  animation: 
+    typing 5s forwards;
+  font-size: 1.6rem;
+  width: 0;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
 .header{
   position: fixed;
     color: var(--white);
@@ -702,12 +720,8 @@
   .subawaiskhan {
    justify-content: center;
     padding: 12px 0;
-    
-}
   
-
-
-
+}
 }
    
       
