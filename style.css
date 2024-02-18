@@ -57,8 +57,11 @@
 .icons i {
   padding-right: 15px;
   font-size: 18px;
+  color: white;
 }
-
+.mediaHidden{
+  color: white;
+}
 .awaiskhan {
   text-align: center;
   display: flex;
